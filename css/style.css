@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded');
+body {
+  font-family: 'Encode Sans Expanded', sans-serif;
+}
+h4,
+h6 {
+  text-transform: uppercase;
+  color: #868686;
+}
+.section1,
+.section2,
+.section3,
+.section4 {
+  margin: 0 auto;
+}
+.section1 {
+  background-image: url(../images/header.jpg);
+  background-size: cover;
+  padding-top: 250px;
+}
+.section1 .container {
+  padding-top: 25px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.section1 header {
+  position: relative;
+  background: black;
+}
+.section1 header #touch-menu {
+  display: none;
+  padding: 12px 10px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+}
+.section1 header #touch-menu:hover {
+  background: #515572;
+}
+.section1 header .logo {
+  float: left;
+  margin-left: 20px;
+}
+.section1 header .nav {
+  float: right;
+  text-transform: uppercase;
+}
+.section1 header .nav li {
+  float: left;
+}
+.section1 header .nav li a {
+  display: block;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+}
+.section1 header .nav a:hover {
+  color: #5dee76;
+  text-decoration: underline #5dee76;
+}
+@media (max-width: 768px) {
+  .section1 header header {
+    height: 45px;
+  }
+  .section1 header .logo img {
+    height: 35px;
+  }
+  .section1 header .nav {
+    position: absolute;
+    display: none;
+    left: 0;
+    right: 0;
+    top: 100%;
+  }
+  .section1 header .nav li {
+    float: none;
+  }
+  .section1 header .nav li a {
+    color: #666;
+    border-top: 1px solid #eee;
+    background: #fff;
+  }
+  .section1 header .nav li:first-child a {
+    border-top: none;
+  }
+  .section1 header #touch-menu {
+    display: block;
+    float: right;
+    margin: -10px 0;
+    height: 35px;
+    text-transform: uppercase;
+  }
+}
+.section1 p,
+.section1 h1 {
+  text-align: center;
+  color: #fff;
+}
+.section1 .main-text h1 {
+  margin-top: 250px;
+}
+.section1 .main-text h1 span {
+  color: #5dee76;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.section1 .lorem {
+  width: 80%;
+  margin: 0 auto;
+  font-weight: 14px;
+}
+.section1 .slider {
+  border: 2px white solid;
+  border-radius: 25px;
+  margin: 0 auto;
+  width: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 250px;
+  padding: 5px 5px;
+  font-weight: bold;
+}
+.section1 .slider:hover {
+  background-color: #5dee76;
+}
+.section1 .button {
+  color: #5dee76;
+  text-decoration: none;
+}
+.section1 .button:hover {
+  color: black;
+  text-decoration: none;
+}
+.section2 {
+  text-align: center;
+}
+.section2 h3 {
+  font-weight: bold;
+  margin-top: 50px;
+  color: #666;
+}
+.section2 h3 span {
+  text-transform: uppercase;
+  color: #5dee76;
+}
+.section2 p {
+  font-size: 12px;
+  margin-top: 40px;
+  color: #888;
+  overflow-x: hidden;
+}
+.section2 .container1,
+.section2 .container2 {
+  display: flex;
+  justify-content: space-around;
+}
+.section2 .container1 .fa,
+.section2 .container2 .fa {
+  display: block;
+  margin-bottom: 10px;
+}
+.section2 .container1 .development,
+.section2 .container2 .development,
+.section2 .container1 .responsive,
+.section2 .container2 .responsive,
+.section2 .container1 .clean,
+.section2 .container2 .clean,
+.section2 .container1 .graphic,
+.section2 .container2 .graphic,
+.section2 .container1 .photography,
+.section2 .container2 .photography,
+.section2 .container1 .photo-edit,
+.section2 .container2 .photo-edit {
+  display: block;
+  border: 1px #868686 solid;
+  color: black;
+  padding: 25px;
+  margin-top: 45px;
+  width: 25%;
+  font-weight: bold;
+}
+.section2 .container1 .development .lorem,
+.section2 .container2 .development .lorem,
+.section2 .container1 .responsive .lorem,
+.section2 .container2 .responsive .lorem,
+.section2 .container1 .clean .lorem,
+.section2 .container2 .clean .lorem,
+.section2 .container1 .graphic .lorem,
+.section2 .container2 .graphic .lorem,
+.section2 .container1 .photography .lorem,
+.section2 .container2 .photography .lorem,
+.section2 .container1 .photo-edit .lorem,
+.section2 .container2 .photo-edit .lorem {
+  font-size: 10px;
+  margin-top: 10px;
+}
+.section2 .container1 .development:hover,
+.section2 .container2 .development:hover,
+.section2 .container1 .responsive:hover,
+.section2 .container2 .responsive:hover,
+.section2 .container1 .clean:hover,
+.section2 .container2 .clean:hover,
+.section2 .container1 .graphic:hover,
+.section2 .container2 .graphic:hover,
+.section2 .container1 .photography:hover,
+.section2 .container2 .photography:hover,
+.section2 .container1 .photo-edit:hover,
+.section2 .container2 .photo-edit:hover {
+  color: #5dee76;
+  border: 1px #5dee76 solid;
+}
+.section2 .container1 .development:hover .lorem:hover,
+.section2 .container2 .development:hover .lorem:hover,
+.section2 .container1 .responsive:hover .lorem:hover,
+.section2 .container2 .responsive:hover .lorem:hover,
+.section2 .container1 .clean:hover .lorem:hover,
+.section2 .container2 .clean:hover .lorem:hover,
+.section2 .container1 .graphic:hover .lorem:hover,
+.section2 .container2 .graphic:hover .lorem:hover,
+.section2 .container1 .photography:hover .lorem:hover,
+.section2 .container2 .photography:hover .lorem:hover,
+.section2 .container1 .photo-edit:hover .lorem:hover,
+.section2 .container2 .photo-edit:hover .lorem:hover {
+  color: black;
+}
+.section2 .container1 .lorem:hover,
+.section2 .container2 .lorem:hover {
+  color: black;
+}
+.section2 .slider {
+  border: 2px black solid;
+  border-radius: 25px;
+  margin: 0 auto;
+  width: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 150px;
+  padding: 5px 5px;
+  font-weight: bold;
+}
+.section2 .slider:hover {
+  background-color: #5dee76;
+}
+.section2 .button {
+  color: #5dee76;
+  text-decoration: none;
+}
+.section2 .button:hover {
+  color: black;
+  text-decoration: none;
+}
+.section3 h4 {
+  margin-top: 30px;
+  display: flex;
+  text-align: center;
+}
+.section4 {
+  text-align: center;
+}
+.section4 h1 {
+  margin-top: 30px;
+  color: #444;
+}
+.section4 .container4 {
+  display: flex;
+  justify-content: space-around;
+}
+.section4 .container4 .basic,
+.section4 .container4 .standart,
+.section4 .container4 .business,
+.section4 .container4 .premium {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.section4 .container4 .basic p:first-of-type,
+.section4 .container4 .standart p:first-of-type,
+.section4 .container4 .business p:first-of-type,
+.section4 .container4 .premium p:first-of-type {
+  margin-top: 50px;
+}
+.section4 .container4 .basic p:last-of-type,
+.section4 .container4 .standart p:last-of-type,
+.section4 .container4 .business p:last-of-type,
+.section4 .container4 .premium p:last-of-type {
+  margin-bottom: 50px;
+}
+.section4 .container4 .basic .button,
+.section4 .container4 .standart .button,
+.section4 .container4 .business .button,
+.section4 .container4 .premium .button {
+  color: #444;
+  text-decoration: none;
+  border: 1px #444 solid;
+  padding: 32px 72px;
+  font-weight: bold;
+}
+.section4 .container4 .basic .button1,
+.section4 .container4 .standart .button1,
+.section4 .container4 .business .button1,
+.section4 .container4 .premium .button1 {
+  padding: 10px 5px;
+  color: #444;
+  text-decoration: none;
+  border: 1px #444 solid;
+}
+.section4 .container4 .basic:hover,
+.section4 .container4 .standart:hover,
+.section4 .container4 .business:hover,
+.section4 .container4 .premium:hover {
+  border: 1px #5dee76 solid;
+}
+.section4 .container4 .basic:hover a,
+.section4 .container4 .standart:hover a,
+.section4 .container4 .business:hover a,
+.section4 .container4 .premium:hover a {
+  background-color: #5dee76;
+  border: none;
+  color: white;
+}
+.section4 p {
+  color: #868686;
+  font-size: 12px;
+}
